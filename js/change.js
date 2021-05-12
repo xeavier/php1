@@ -56,16 +56,16 @@ $(document).ready(function(){
 				},
 				success: function (data) {
 					if(data == 2){
-						document.getElementById('#error').innerHTML = "Old password was Wrong"
+						document.getElementById('error').innerHTML = "Old password was Wrong"
 					}
 					else if(data == 0){
 						window.location = "home.html";
 					}else if(data == 1){
 						$("#error").fadeIn();
-						document.getElementById('#error').innerHTML = "Try again";
+						document.getElementById('error').innerHTML = "Try again";
 					}else if(data == 3){
 						$("#error").fadeIn();
-						document.getElementById('#error').innerHTML = "Old password was Wrong";
+						document.getElementById('error').innerHTML = "Old password was Wrong";
 					}
 					console.log(data)
 				}
