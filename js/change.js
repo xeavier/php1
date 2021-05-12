@@ -56,6 +56,7 @@ $(document).ready(function(){
 				},
 				success: function (data) {
 					if(data == 2){
+						$("#error").fadeIn();
 						document.getElementById('error').innerHTML = "Old password was Wrong"
 					}
 					else if(data == 0){
