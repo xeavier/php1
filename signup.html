@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SIGN UP</title>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script  src="js/register.js"></script>
+
+     <script type="text/javascript" src="js/jquery.min.js"></script>
+	<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.js"></script>
+	<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+	
+</head>
+<body>
+     <form  method="post" id="register-form">
+    <!--<form action="signup-check.php" method="post">-->
+     	<h2>SIGN UP</h2>
+          <p class="error" id="error"></p>
+          <label>Name</label>
+               <input type="text" 
+                      name="name" 
+                      id="name"
+                      placeholder="Name"><br>
+
+          <label>E mail</label>
+               <input type="text" 
+                      name="email" 
+                      id="email"
+                      placeholder="jhon@example.com"><br>
+
+          <label>Phone no</label>
+          <input type="text" 
+                      name="phone" 
+                      id="phone"
+                      placeholder="Enter Mobile number"><br>
+     	<label>Password</label>
+     	<input type="password" 
+                 name="password" 
+                 id="password"
+                 placeholder="Password"><br>
+
+          <label>Re Password</label>
+          <input type="password" 
+                 name="re_password" 
+                 id="re_password"
+                 placeholder="Re_Password"><br>
+
+     	<button type="submit" id="submit">Sign Up</button>
+          <a href="index.html" class="ca">Already have an account?</a>
+     </form>
+</body>
+</html>

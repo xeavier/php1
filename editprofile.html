@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Edit Profile</title>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link rel="stylesheet" type="text/css" href="styles/loader.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script  src="js/edit.js"></script> 
+</head>
+<body>
+	<div class="lds-ellipsis" id="loader" style="display: none;">
+		<div  style="background-color: blue;"></div>
+		<div style="background-color: blue;"></div>
+		<div style="background-color: blue;"></div>
+		</div>
+<form  method="post">
+     	<h2>Edit Profile</h2>
+		<p class="" id="content"></p>
+     	<label>name</label>
+     	<input type="text" 
+     	       name="name" 
+				id="name">
+     	       <br>
+
+				<label>Phone</label>
+     	<input type="text" 
+     	       name="phone" 
+				id="phone">
+     	       <br>
+
+     	<button type="submit" id="submit">CHANGE</button>
+          <a href="home.html" class="ca">HOME</a>
+     </form>
+</body>
+</html>
