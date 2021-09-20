@@ -10,10 +10,10 @@ $unmae= "WBQV1AlAAP";
 $password = "3HYQvwc7CG";
 $db_name = "WBQV1AlAAP";*/
 
-$sname= "freedb.tech";
-$unmae= "freedbtech_banuchandar";
-$password = "12345678";
-$db_name = "freedbtech_guvi";
+$sname= "sql10.freesqldatabase.com";
+$unmae= "sql10438653";
+$password = "AEgCMNCg9s";
+$db_name = "user1";
 
 $conn = mysqli_connect($sname, $unmae, $password, $db_name);
 
